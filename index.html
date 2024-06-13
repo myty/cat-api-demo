@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Cats</title>
+</head>
+
+<body class="p-8">
+  <div class="flex flex-col items-center gap-y-3">
+    <button id="showRandomCat" class="px-8 py-2 text-lg border-2 rounded border-blue-950 bg-slate-300">Randomize
+      Cat</button>
+    <div>
+      <img id="cat" class="absolute hidden object-cover w-64 h-64 border-4 border-gray-800 rounded-lg"
+        alt="Cat" />
+      <img class="object-cover w-64 h-64 border-4 border-gray-800 rounded-lg" src="/img-placeholder.png"
+      alt="Cat" />
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
